@@ -1,3 +1,4 @@
+
 # Starter pipeline
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
@@ -10,6 +11,7 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
+-task: Maven@4
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
